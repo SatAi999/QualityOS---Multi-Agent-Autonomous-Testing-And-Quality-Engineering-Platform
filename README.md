@@ -114,7 +114,14 @@ Contains the main pipeline visualization layout:
 * **Agent Logs Terminal**: A console dashboard streaming live logs, outputs, and telemetry events directly from the active docker container.
 * **RCA & Code Repair Panel**: Displays the exact files with detected defects, trace analysis summaries, and provides an **"Apply Fix to Source"** button to write Git diff patches directly to the codebase.
 
-![Run Explorer](screenshots/run_explorer.png)
+*Agent Logs Tab*:
+![Run Explorer - Agent Logs](screenshots/run_explorer_logs.png)
+
+*Generated Test Code Tab*:
+![Run Explorer - Test Code](screenshots/run_explorer_code.png)
+
+*RCA & Code Repair Tab*:
+![Run Explorer - RCA & Fixes](screenshots/run_explorer_rca.png)
 
 ### 3. System Knowledge Graph
 Provides a force-directed SVG map:
